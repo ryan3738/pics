@@ -9,7 +9,7 @@ class SearchBar extends React.Component {
 
     console.log(this.state.term);
     this.props.onSubmit(this.state.term);
-  };c
+  };
 
   render() {
     return (
